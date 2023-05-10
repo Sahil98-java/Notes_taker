@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\Real Practice\Notetaker\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1726611273.index
+\Notetker\src\main\java
+D:\Real Practice\Notetaker\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\800549965.index
+\Notetker\src\main\resources

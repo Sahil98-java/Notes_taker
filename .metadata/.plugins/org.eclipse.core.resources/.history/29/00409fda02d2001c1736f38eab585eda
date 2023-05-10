@@ -1,0 +1,5 @@
+package com.factoryhelper;
+
+public class FactoryProvider {
+
+}

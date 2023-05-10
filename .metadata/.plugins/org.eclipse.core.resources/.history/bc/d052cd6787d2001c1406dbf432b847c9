@@ -1,0 +1,40 @@
+package com.hibernate.hibernatepractice;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+		System.out.println("Project started!");
+
+		Configuration cfg = new Configuration();
+		cfg.configure("hibernate.cfg.xml");
+
+		SessionFactory factory = cfg.buildSessionFactory();
+		//factory.getCurrentSession();
+	     //System.out.println(factory);
+		//System.out.println(factory.isClosed());
+		Student st=new Student();
+		st.setId(2);
+		st.setName("gagan");
+		st.setCity("Yamuna Nagar");
+		Session session=factory.openSession();
+		Transaction tx=session.beginTransaction();
+		Student st1=session.get(Student.class,2);
+		
+		session.delete(st1);
+		//session.save(st);
+		//System.out.println(st);
+
+		tx.commit();
+		session.close();
+		factory.close();
+		
+	}
+}

@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+D:\Real Practice\Notetaker\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3014472738.index
+800549965.index
+4105789709.index
+535635762.index
+3011760040.index
+801453372.index
+3884378471.index
+800549965.index
+1726611273.index

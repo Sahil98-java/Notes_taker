@@ -1,0 +1,10 @@
+import java.util.Date;
+
+@entity
+public class Note {
+
+   private	int id;
+   private	String title;
+   private	String content;
+   private  Date addedDate;
+}

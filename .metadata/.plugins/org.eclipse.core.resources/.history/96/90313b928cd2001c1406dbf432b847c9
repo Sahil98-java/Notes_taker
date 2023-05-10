@@ -1,0 +1,14 @@
+
+<web-app >
+	<display-name>Notetker</display-name>
+	
+	<servlet>
+  <servlet-name>SaveNoteServlet</servlet-name>
+  <servlet-class>SaveNoteServlet</servlet-class>
+  </servlet>
+	<servlet-mapping>
+	<servlet-name>SaveNoteServlet</servlet-name>
+	<url-pattern>/SaveNoteServlet</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
